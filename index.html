@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
@@ -7,8 +8,16 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 </head>
+
 <body>
+  <style type="text/css">
+    .content {
+      overflow: auto;
+    }
+  </style>
+
   <div id="app"></div>
   <script>
     window.$docsify = {
@@ -16,12 +25,21 @@
       repo: '',
       loadSidebar: true,
       coverpage: true,
-      onlyCover: false,
+      onlyCover: true,
       subMaxLevel: 2,
+      // alias: {
+      //   '/.*/_sidebar.md': '/_sidebar.md',
+      // },
+      subMaxLevel: 2,
+      sidebarDisplayLevel: 1,
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+
+
 </body>
+
 </html>
