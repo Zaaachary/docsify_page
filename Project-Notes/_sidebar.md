@@ -1,4 +1,4 @@
 <!-- docs/_sidebar.md created by Zachary Li -->
 
 - [Previous Level](README)
-- [Alignment.md](LLM/Alignment.md)
+- [docsify](Project-Notes/docsify/README)
