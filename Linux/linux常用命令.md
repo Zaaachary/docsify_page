@@ -53,3 +53,12 @@
 查看有哪些用户：`cat /etc/passwd`
 
 
+
+## 防火墙设置
+
+
+
+运行 icmp 协议 ping
+
+`sudo vim /etc/ufw/before.rules`
+
