@@ -1,7 +1,6 @@
 # Linux 常用命令
 
 
-
 ## 1 文件系统
 
 `stat -c %s` 文件名命令来获取文件的大小
@@ -53,4 +52,13 @@
 
 查看有哪些用户：`cat /etc/passwd`
 
+
+
+## 防火墙设置
+
+
+
+运行 icmp 协议 ping
+
+`sudo vim /etc/ufw/before.rules`
 

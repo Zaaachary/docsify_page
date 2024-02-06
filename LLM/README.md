@@ -8,9 +8,7 @@
 - vLLM 加速 LLM 实践
 - trainer 中如何进行生成推理
 
-agenttuning
 
-agenttuning
 
 ## 待实现
 
