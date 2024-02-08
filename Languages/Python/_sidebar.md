@@ -1,6 +1,7 @@
 <!-- docs/_sidebar.md created by Zachary Li -->
 
 - [Previous Level](Languages/README)
-- [Flask_Note.md](Languages/Python/Flask_Note.md)
-- [make_package.md](Languages/Python/make_package.md)
-- [virtualenv.md](Languages/Python/virtualenv.md)
+- [make_package](Languages/Python/make_package.md)
+- [virtualenv](Languages/Python/virtualenv.md)
+- [GPT说得对](Languages/Python/GPT说得对.md)
+- [Flask_Note](Languages/Python/Flask_Note.md)

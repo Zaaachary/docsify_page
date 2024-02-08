@@ -14,4 +14,20 @@ if (list == null || list.isEmpty()) {
 }
 ```
 
-2. 
+2. System.arraycopy
+
+   `System.arraycopy` 是 Java 中用于复制数组内容的方法。它可以用来将一个源数组的一部分或全部内容复制到目标数组中的指定位置。以下是 `System.arraycopy` 方法的基本语法：
+
+   ```java
+   System.arraycopy(Object src, int srcPos, Object dest, int destPos, int length)
+   ```
+
+   - `src`: 源数组
+   - `srcPos`: 源数组中的起始位置
+   - `dest`: 目标数组
+   - `destPos`: 目标数组中的起始位置
+   - `length`: 要复制的元素数量
+
+   这个方法可以在不同类型的数组之间进行复制，但需要确保类型兼容性。它是一个高效的数组复制方法，可以减少手动循环复制的复杂性，提高代码的可读性和效率。
+
+2. s

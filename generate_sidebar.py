@@ -16,7 +16,7 @@
 import os
 import os.path as path
 
-ignore_path = (".git", "_coverpage.md", "_sidebar.md", "README.md", ".gitignore", ".nojekyll", "generate_sidebar.py", "typora_pic", "index.html", "_sidebar_old.md")
+ignore_path = (".git", "_coverpage.md", "_sidebar.md", "README.md", ".gitignore", ".nojekyll", "generate_sidebar.py", "typora_pic", "index.html", "_sidebar_old.md", ".github", "_footer.md", "_navbar.md")
 
 
 def make_sidebar(sidebar_items):
@@ -30,11 +30,12 @@ def make_sidebar(sidebar_items):
             continue
 
         if relative_path:
-            item_path = "/".join(relative_path + (item_name,))
+            item_path = os.path.sep.join(relative_path + (item_name,))
         else:
             item_path = item_name
 
         if item_type == 'File':
+            item_name = item_name.replace('.md', '')
             sidebar_str += f"- [{item_name}]({item_path})\n"
         else:
             # Folder
@@ -64,7 +65,7 @@ def DFS(base_path, relative_path=None):
     for child in os.listdir(current_path):
         if child in ignore_path:
             continue
-        print(current_path + "\\" +  child)
+        print(current_path + os.path.sep +  child)
         if path.isfile(path.join(current_path, child)):
             # File process
             sidebar_items.append(["File", relative_path, child, None])
