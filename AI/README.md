@@ -10,15 +10,6 @@
 - Gradient Checkpointing 的原理
 - https://medium.com/@venkata_sai/unleashing-the-potential-of-peft-parameter-efficient-fine-tuning-in-training-large-language-b7a87e8a4eb9
 
-
-
-## 待实现
-
-- trainer 断点续训
-- trainer data loader 动态读取数据集
-
-
-
 ## Reading List
 
 - DiT: https://arxiv.org/pdf/2401.11605.pdf
