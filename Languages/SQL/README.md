@@ -71,7 +71,7 @@ GROUP BY category;
 
 
 
-## Q2: spark 和 hive sql 是什么关系？
+## Q3: spark 和 hive sql 是什么关系？
 
 Spark 和 Hive SQL 在大数据处理领域都是非常重要的工具，它们之间的关系可以从以下几个方面来理解：
 
@@ -96,3 +96,40 @@ Spark 和 Hive SQL 在大数据处理领域都是非常重要的工具，它们�
    - Spark SQL 的语法和HiveQL非常相似，因为Spark SQL的目标之一就是兼容HiveQL，但Spark SQL在功能上进行了扩展和优化，支持更多的SQL标准和高级特性。
 
 总的来说，Spark 和 Hive SQL 在大数据生态系统中都各有其位置和优势，它们可以独立使用，也可以相互配合，以满足不同的数据处理需求。
+
+
+
+## Q4: case when then 介绍一下
+
+在SQL中，`CASE`语句允许你在查询中根据条件执行逻辑判断，类似于编程语言中的`if-else`语句。`CASE`语句可以在`SELECT`查询、`INSERT`语句、`UPDATE`语句和其他SQL操作中使用。下面是`CASE`语句的基本语法：
+
+```sql
+CASE
+    WHEN condition1 THEN result1
+    WHEN condition2 THEN result2
+    ...
+    [ ELSE resultN ]
+END
+```
+
+每个`WHEN`子句检查一个条件，如果条件为真（TRUE），则返回相应的`THEN`子句中的结果。如果所有的`WHEN`条件都不为真，那么将返回`ELSE`子句中的结果（如果提供了`ELSE`子句）。如果没有提供`ELSE`子句，并且所有`WHEN`条件都不为真，那么`CASE`表达式的结果将是`NULL`。
+
+下面是一个使用`CASE`语句的例子，这个例子根据员工的工资等级返回不同的文本描述：
+
+```sql
+SELECT
+    employee_id,
+    salary,
+    CASE
+        WHEN salary < 3000 THEN 'Entry level'
+        WHEN salary BETWEEN 3000 AND 5999 THEN 'Mid level'
+        WHEN salary >= 6000 THEN 'Senior level'
+        ELSE 'Not determined'
+    END AS salary_level
+FROM
+    employees;
+```
+
+在这个例子中，`CASE`语句为每个员工根据其工资级别返回一个描述。如果工资低于3000，返回'Entry level'；如果工资在3000到5999之间，返回'Mid level'；如果工资高于或等于6000，返回'Senior level'；如果没有匹配的条件，返回'Not determined'。
+
+`CASE`语句非常灵活，可以用于各种复杂的条件逻辑，从而提高SQL查询的表达能力。

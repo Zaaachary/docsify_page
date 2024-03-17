@@ -23,3 +23,10 @@
 
 - DiT: https://arxiv.org/pdf/2401.11605.pdf
 
+- LLM embedder: [Retrieve Anything To Augment Large Language Models](https://arxiv.org/pdf/2310.07554.pdf); [FT](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/llm_embedder/docs/fine-tune.md)
+
+- https://www.yitay.net/blog/training-great-llms-entirely-from-ground-zero-in-the-wilderness
+
+- 
+
+  
