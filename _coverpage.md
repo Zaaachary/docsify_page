@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](_media/icon.svg)
+<!-- ![logo](_media/icon.svg) -->
 
 # 快刀切草莓君 <small>code blog</small>
 

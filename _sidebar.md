@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md created by Zachary Li -->
 
-- [Project-Notes](Project-Notes/README)
-- [Languages](Languages/README)
 - [AI](AI/README)
+- [Languages](Languages/README)
 - [Linux](Linux/README)
+- [Project-Notes](Project-Notes/README)
