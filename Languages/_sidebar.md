@@ -1,6 +1,6 @@
 <!-- docs/_sidebar.md created by Zachary Li -->
 
 - [Previous Level](README)
-- [Python](Languages/Python/README)
-- [Java](Languages/Java/README)
-- [SQL](Languages/SQL/README)
+- [Java](Languages\Java/README)
+- [Python](Languages\Python/README)
+- [SQL](Languages\SQL/README)
