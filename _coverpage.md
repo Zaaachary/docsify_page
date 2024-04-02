@@ -2,11 +2,12 @@
 
 <!-- ![logo](_media/icon.svg) -->
 
-# 快刀切草莓君 <small>code blog</small>
+# 快刀切草莓君 <small>blog</small>
 
-> 你好啊
+> Zachary LI
 
-- 记录算法工程师的成长
+- 摸爬打滚的算法工程师
+- 正在提升后端开发能力
 
 <!-- [GitHub](https://github.com/docsifyjs/docsify/) -->
-[Get Started](/README.md)
+[Enter](/README.md)

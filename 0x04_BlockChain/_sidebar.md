@@ -1,4 +1,4 @@
 <!-- docs/_sidebar.md created by Zachary Li -->
 
 - [Previous Level](README)
-- [docsify](Project-Notes/docsify/README)
+- [Concepts](0x04_BlockChain/Concepts.md)

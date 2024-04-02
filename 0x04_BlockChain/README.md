@@ -36,3 +36,8 @@ https://www.rootdata.com/zh/Projects/detail/Berachain?k=MjgxMA%3D%3D
 添加网络：https://chainlist.org/
 
 测试网水龙头&网络生态：https://artio.faucet.berachain.com/
+
+融资1.11亿美元Layer1项目Berachain 如何交互获得空投？ - 初晓链的文章 - 知乎
+https://zhuanlan.zhihu.com/p/689830513
+
+https://medium.com/@bitalkforu/berachian%E7%BA%AF%E4%BA%A4%E4%BA%92-%E5%AE%98%E6%96%B9dapp%E7%9A%84%E6%96%B0%E6%89%8B%E5%90%91-%E5%85%A8%E6%B5%81%E7%A8%8B-%E5%AE%8C%E5%85%A8%E6%94%BB%E7%95%A5%E6%95%99%E7%A8%8B-45d52450b52a
