@@ -21,7 +21,7 @@ ignore_path = (".git", "_coverpage.md", "_sidebar.md", "README.md", ".gitignore"
 
 def make_sidebar(sidebar_items):
     sidebar_str = "<!-- docs/_sidebar.md created by Zachary Li -->\n\n"
-
+    import pdb; pdb.set_trace()
     for item in sidebar_items:
         item_type, relative_path, item_name, inside_item = item
 
