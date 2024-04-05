@@ -21,7 +21,9 @@ ignore_path = (".git", "_coverpage.md", "_sidebar.md", "README.md", ".gitignore"
 
 def make_sidebar(sidebar_items):
     sidebar_str = "<!-- docs/_sidebar.md created by Zachary Li -->\n\n"
-    import pdb; pdb.set_trace()
+    # import pdb; pdb.set_trace()
+    sidebar_items.sort(key=lambda x:x[2] if isinstance(x[2], str) else '')
+
     for item in sidebar_items:
         item_type, relative_path, item_name, inside_item = item
 
@@ -73,7 +75,7 @@ def DFS(base_path, relative_path=None):
             # Folder process
             sidebar_items.append(["Folder", relative_path, child, []])
             DFS(base_path, relative_path + (child,))
-
+    # import pdb; pdb.set_trace()
     sidebar_str = make_sidebar(sidebar_items)
     write_sidebar(current_path, sidebar_str)
 
