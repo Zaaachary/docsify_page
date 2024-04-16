@@ -6,3 +6,4 @@
 - [GPT说得对](0x01_Languages/001_Python/GPT说得对.md)
 - [Pandas](0x01_Languages/001_Python/Pandas.md)
 - [make_package](0x01_Languages/001_Python/make_package.md)
+- [package_install_problem](0x01_Languages/001_Python/package_install_problem.md)
